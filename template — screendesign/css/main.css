@@ -1,0 +1,344 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+textarea::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+textarea::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+body input:focus:required:invalid, body textarea:focus:required:invalid {}
+body input:required:valid, body textarea:required:valid{}
+
+body{font-family: "RobotoRegular", sans-serif; font-size: 16px; line-height: 1;}
+
+a{
+	-webkit-transition: all ease-in .2s;
+	-o-transition: all ease-in .2s;
+	transition: all ease-in .2s;
+}
+
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+
+.input-wrap{position: relative;}
+
+.null{padding-left: 0; padding-right: 0;}
+.null-left{padding-left: 0;}
+.null-right{padding-right: 0;}
+
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-responsive{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+#success{display: none;}
+#success h4{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+.header {
+	position:relative;
+	height: 500px;
+	background: url(../images/effect.gif) center bottom no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-bottom: 22px;
+}
+
+.header .logo {
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Myriad Pro Cond";
+}
+
+.header .menu li a {
+	font-family: "Myriad Pro Cond";
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+
+.header .menu li.active a {
+	text-decoration: underline;
+}
+
+.header .menu li:hover a {
+	color: #1abc9c;
+}
+
+.header .menu li {
+	display: inline-block;
+}
+
+.menu {
+	text-align: right;
+}
+
+.header .logo, .menu {
+	padding-top: 55px;
+}
+
+.header h1 {
+	font-family: "Myriad Pro Cond";
+	font-size: 60px;
+	color: #fff;
+	padding: 150px 40px 15px;
+}
+
+.header h1 span {
+	display: block;
+	font-family: "Myriad Pro Cond";
+	font-size: 22px;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.header .go a {
+	display: inline-block;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 50px;
+	background: #1abc9c;
+	box-shadow: 0 0 0 6px rgba(26,188,156,.5);
+}
+
+.header .go {
+	position: absolute;
+	left: 0;
+	bottom: -22px;
+	z-index:10;
+	width: 100%;
+	text-align: center;
+}
+
+.about {
+	text-align: center;
+	padding-top: 130px;
+	padding-bottom: 75px;
+}
+
+.about h2 {
+	font-size: 36px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	font-family: "Myriad Pro Cond";
+	color: #1abc9c;
+}
+
+.about .text p {
+	font-size: 18px;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+	font-family: "Myriad Pro Cond";
+	color: #95a5a6;
+	line-height: 30px;
+	font-style: bold;
+}
+
+.advantages figcaption {
+	font-size: 20px;
+	font-family: "Times New Roman";
+	color: #62cab2;
+	padding: 25px 0;
+}
+
+.advantages p {
+ 	text-align: justify;
+ 	color: #9dacad;
+ 	line-height: 30px;
+ 	max-width: 250px;
+ 	display: inline-block;
+}
+.advantages .item{padding: 0 35px 50px;}
+
+.gallery .item img {
+	width: 100%;
+}
+
+
+.gallery .item {
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.gallery .zoom {
+	width: 40px;
+	height: 40px;
+	background: #1abc9c url(../images/zoom.png) center no-repeat;
+	box-shadow: 0 0 0 6px rgba(26,188,156,.5);
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 10;
+}
+
+.gallery .item .desc {
+	padding: 20px;
+	background-color: #1abc9c;
+	color: #fff;
+	display: none;
+	width: 100%;
+}
+
+.gallery .item .desc h3 {
+	font-size: 30px;
+}
+
+.gallery .item .desc p {
+	font-size: 15px;
+	color: #23937d;
+}
+
+.gallery .item:hover .desc {
+	position: absolute;
+	transform: translate(0,-85px);
+	display: block;
+}
+
+.gallery .view { 
+	margin-top: 47px;
+	text-align: center;
+ }
+
+.gallery .view a {
+	display: inline-block;
+	background-color: #1abc9c;
+	padding: 10px 20px;
+}
+
+.gallery .view h3 {
+	display: inline-block;
+	padding-right: 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+aside form {
+	text-align: center;
+	margin-top: 150px;
+}
+
+aside form h1 {
+	font-size: 60px;
+	color: #1abc9c;
+	margin-bottom: 77px;
+}
+
+aside form textarea[name="form1"] {
+	background-color: #e4e8e8;
+	width: 369px;
+	height: 74px;
+	margin-bottom: 31px;
+	padding-left: 32px;
+	padding-top: 26px;
+	resize: none;
+}
+
+aside form textarea[id="1"] {
+	float: left;
+}
+
+aside form textarea[id="2"] {
+	float: right;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #cecece;
+} 
+textarea::-moz-placeholder {
+    color: #cecece;
+}
+
+aside form textarea[name="form2"] {
+	background-color: #e4e8e8;
+	display: block;
+	width: 100%;
+	height: 249px;
+	padding-left: 32px;
+	padding-top: 26px;
+	resize: none;
+}
+
+footer {
+	margin-top: 122px;
+	background-color: #1abc9c;
+	padding-bottom: 80px;
+}
+
+footer .box1{
+	float: left;
+	position: relative;
+	left: -10px;
+	top: -30px;
+}
+
+footer .box2 a{
+	display: block;
+	text-align: center;
+	position: relative;
+	top: -30px;
+}
+
+footer .box3{
+	float: right;
+	position: relative;
+	right: -10px;
+	top: -30px;
+}
+
+
+footer p.pleft {
+	color: #fff;
+	float: left;
+}
+
+footer p.pright {
+	float: right;
+	color: #fff;
+}
+
+

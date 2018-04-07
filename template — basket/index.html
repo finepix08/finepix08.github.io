@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Корзина</h1>
+		</header>
+		<section>
+			<div class="item flex-container" id = "item1">
+				<a href="#" ><img src="images/close.png" alt="" id = "close1"></a>
+				<img src="images/photo1.gif" alt="" id ="photo">
+				<h1>Кулон "Sea Heart"</h1>
+				<p class="articul">Артикул: <span>FH233</span></p>
+				<label for="1">Кол-во</label>
+				<input type="number" value="1" id="number1">
+				<p class="price">Цена: <span id = "span21">225</span><span id = "span23"> руб.</span></p>
+			</div>
+			<div class="item flex-container" id = "item2">
+				<a href="#" ><img src="images/close.png" alt="" id = "close2"></a>
+				<img src="images/photo2.gif" alt="" id ="photo">
+				<h1>Кулон "LEAF"</h1>
+				<p class="articul">Артикул: <span>FH233</span></p>
+				<label for="1">Кол-во</label>
+				<input type="number" value="1" id="number2">
+				<p class="price">Цена: <span id = "span22">225</span><span id = "span23"> руб.</span></p>
+			</div>
+		</section>
+		<form class = "form" action="post" id = "data">
+			<div class="flex-container">
+				<div class="flex-item">
+					<p>Страна <span>*</span></p>
+					<select name="" id="select1">
+						<option value="">Беларусь</option>
+						<option value="">Россия</option>
+					</select>
+				</div>
+				<div class="flex-item">
+					<div class="flex-container2">
+						<p>Город <span>*</span></p>
+						<select name="" id="select2">
+							<option value="">Минск</option>
+							<option value="">Москва</option>
+						</select>
+					</div>
+				</div>
+				<div class="flex-item">
+					<div class="flex-container2">
+						<p>Адрес <span>*</span></p>
+						<input type="text" id="input1" name="mess">
+						</div>
+					</div>
+				<div class="flex-item">
+					<p>Регион <span>*</span></p>
+					<select name="" id="select1" >
+						<option value="">Минская область</option>
+						<option value="">Московская область</option>
+					</select>
+				</div>
+				<div class="flex-item">
+					<div class="flex-container2">
+						<p>Почтовый индекс <span>*</span></p>
+						<input type="text" id="input2" name="mess">
+					</div>
+				</div>
+				<div class="flex-item">
+					<div class="flex-container2">
+						<p>Телефон <span>*</span></p>
+						<input type="text" name="phone" id="input1">
+					</div>
+				</div>
+				<div class="flex-item">
+				</div>
+				<div class="flex-item">
+				</div>
+				<div class="flex-item">
+					<div class="flex-container2">
+						<p>E-mail <span>*</span></p>
+						<input type="text" id="input1" name="email">
+					</div>
+				</div>
+			</div>
+		</form>
+		<footer>
+			<div class="footer-left">
+				<a href="#"><p id ="deleteall">Сбросить всё</p></a>
+			</div>
+			<div class="footer-right">
+				<p>Итого: <span id = "span3">450 </span><span id = "span5"> руб. </span><span id = "span4">0 </span> <span id = "span5">коп. </span></p>
+			</div>
+			<button id = "button1" type="submit" form="data">Оформить заказ</button>
+		</footer>
+		<div id="heart"></div>
+		
+		<div id="success">
+			<h4>Спасибо за заявку!<br> Мы свяжемся с Вами в ближайшее время</h4>
+		</div>
+
+	</div>
+
+
+
+
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="libs/tabs/tabs.js"></script>
+	<script src="js/maskinput.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
