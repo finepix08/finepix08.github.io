@@ -1,0 +1,130 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header{position: absolute;}
+	header h1{font-size: 16px;}
+	header .info p{font-size: 16px; text-align: center;}
+	header .phone p{font-size: 14px;}
+	header .phone p span{font-size: 16px;}
+	.order-btn{font-size: 14px; padding: 0 15px;}
+	#top-form .title{font-size: 16px;}
+	#clock, #top-form p.under{display: none;}
+	.advantages .item h3{font-size: 16px;}
+	.solution .photo{width: 100%;}
+	.decide{background: url(../images/discount-bg.jpg) center top no-repeat; background-size: cover;}
+	.decide .leftSide p{color: #1daeed;}
+	.decide .rightSide p{color: #ff6f00;}
+	.decide .note{margin-bottom: 50px;}
+	.calculate .order-btn{font-size: 12px;}
+	img.window{width: 100%;}
+	.glass .label, .glass .label.purple{font-size: 20px; padding-top: 25px;}
+	.woman img{display: none;}
+	.discount .info p.title{text-align: center;}
+	.find-us .map .yandex-map{position: relative;}
+	.find-us .map{height: auto;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header h1{text-align: center;}
+	header h2{
+		font-size: 15px;
+		margin: 5px auto;
+	}
+	header .info p{padding-top: 0;}
+	header .phone{padding-top: 10px; text-align: center;}
+	header .order-btn{margin-bottom: 10px;}
+	.calculate{background-size: cover;}
+	.calculate-tabs .right-part{height: auto; margin-bottom: 30px;}
+	.calculate-tabs{margin-bottom: 30px;}
+	.bottom .logo{text-align: center; padding-top: 10px; padding-bottom: 10px;}
+	.bottom p.adres{padding: 10px 0; text-align: center;}
+	#top{margin: 10px auto; width: 150px;}
+	.top h2{padding-top: 320px; text-align: center;}
+	.top h3{text-align: center;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header h2{display: none;}
+	section h1{
+		font-size: 30px;
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+	section h1 span{font-size: 18px;}
+	.top h2{font-size: 40px; padding-top: 350px;}
+	.top h3{font-size: 30px;}
+	#top-form .title .big-purple{font-size: 24px;}
+	.tabs ul li{
+		width: 100%;
+		margin-bottom: 10px;
+    border-radius: 20px !important;
+	}
+	.tabs ul li.tab-2{
+    height: 60px;
+    padding-top: 0;
+  }
+  .tabs ul li.tab-2 .hit{
+    display: none;
+  }
+  .tabs .tabs-content h2 {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+  .decide .leftSide p.title, .decide .rightSide p.title{padding: 15px 0;}
+  .decide .note{display: none;}
+  .decide .leftSide p span, .decide .rightSide p span{padding-bottom: 10px;}
+  .calculate-tabs > ul li:first-child{border-radius: 20px 20px 0 0;}
+  .calculate-tabs .left-part h3{padding: 15px 0;}
+  .calculate-tabs .left-part {height: auto; padding-bottom: 30px;}
+  img.hc{width: 100%;}
+  .key{background-size: cover;}
+  .col-100{width: 100%;}
+  header h1{padding-top: 0; padding-bottom: 10px;}
+  .tabs .tabs-content table tr td{font-size: 14px;}
+  .tabs .tabs-content .order-btn{width: 100%; margin-bottom: 0;}
+  .glass h3{font-size: 24px;}
+  .discount .info p.title{font-size: 38px;}
+  .discount .info p.title span b{font-size: 50px;}
+  .discount .order-btn, .skidki .order-btn, #call-form .order-btn{width: 100%;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.find-us .call .phone p span{font-size: 22px;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.container{width: 990px;}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

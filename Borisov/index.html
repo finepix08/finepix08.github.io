@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Okna Ramy</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5">
+					<div class="row">
+						<div class="col-xs-4 col-100">
+							<div class="logo">
+								<a href=""><img src="images/logo.png" alt="Okna-Ramy"></a>
+							</div>
+						</div>
+						<div class="col-xs-8 col-100 null">
+							<h1>Современное производcтво<br> окон и балконных рам</h1>
+							<h2>от лидера на оконном рынке</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 info">
+					<p class="timetable"><span>Режим работы:</span><br> 9:00 - 20:00<br>Без выходных</p>
+				</div>
+				<div class="col-sm-3 phone text-right">
+					<p>vel   +375 (29) <span>182-04-07</span></p> 
+                                        <p>мтс  +375 (33) <span>352-04-07</span></p> 
+					<p>гор  +375 (17) <span>388-06-80</span></p>
+					<a href="#popup-call-form" class="order-btn fancybox">Заказать звонок</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section class="top">
+		<div class="container">
+			<h2>Самые <span>выгодные цены</span></h2>
+			<h3>в Борисове</h3>
+			<div class="row">
+				<div class="col-sm-offset-7 col-sm-5">
+					<form method="post" id="top-form" class="form">
+						<p class="title">Заключи договор <span class="purple">в день замера</span><br> и получи <span class="blue">энергосберегающие окна</span><br> <span class="big-purple">по цене обычных!</span></p>
+						<label for="tel">введите Ваш номер телефона</label>
+						<div class="input-wrap">
+							<input type="text" name="tel" class="number-mask" maxlength="17" placeholder="+375 ( &#149 &#149 )   &#149 &#149 &#149    &#149 &#149    &#149 &#149">
+						</div>
+						<input type="hidden" name="type" value="получить скидку">
+						<input type="submit" value="получить скидку">
+						<p class="under">до конца акции осталось: </p>
+						<!-- Timer -->
+						<div id="clock" class="row text-center">
+							<div class="col-xs-offset-1 col-xs-3 null">
+								<div id='hour'>
+									<p id='hour0'></p>
+									<p id='hour1' class="second"></p>
+								</div>
+								<div class="line"></div>
+							</div>
+							<div class="col-xs-1 null devider"><p>:</p></div>
+							<div class="col-xs-3 null">
+								<div id='min'>
+									<p id='min0'></p>
+									<p id='min1' class="second"></p>
+								</div>
+								<div class="line"></div>
+							</div>
+							<div class="col-xs-1 null devider"><p>:</p></div>
+							<div class="col-xs-3 null">
+								<div id='sec'>
+									<p id='sec0'></p>
+									<p id='sec1' class="second"></p>
+								</div>
+								<div class="line"></div>
+							</div>
+						</div>	
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="advantages">
+		<div class="container">
+			<h1>Наши преимущества <span>фабричное изготовление окон ПВХ</span></h1>
+			<div class="row">
+				<div class="col-sm-3 item text-center">
+					<img src="images/a1.png" alt="">
+					<h3>Монтаж<br> по ГОСТ</h3>
+					<p>Применение качественных материалов, соблюдение всех норм при установке окон позволит избежать проблем при дальнейшей эксплуатации</p>
+				</div>
+				<div class="col-sm-3 item text-center">
+					<img src="images/a2.png" alt="">
+					<h3>Немецкая<br> фурнитура</h3>
+					<p>Надёжность и долговечность работы запорных механизмов окон обеспечивается фурнитурой класса А от известных производителей</p>
+				</div>
+				<div class="col-sm-3 item text-center">
+					<img src="images/a3.png" alt="">
+					<h3>Многокамерный<br> стеклопакет</h3>
+					<p>Уникальная разработка, обеспечивающая высокую степень защиты помещения от холода зимой и излишней солнечной энергии летом</p>
+				</div>
+				<div class="col-sm-3 item text-center">
+					<img src="images/a4.png" alt="">
+					<h3>Энергосберегающий<br> стеклопакет</h3>
+					<p>Использование энергосберегающих стеклопакетов увеличивает теплоизоляцию в помещении более чем в 1,5 раза</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-offset-1 col-sm-10">
+					<div class="row">
+						<div class="col-sm-4 item text-center">
+							<img src="images/a5.png" alt="">
+							<h3>Повышенная<br> шумоизоляция</h3>
+							<p>Предлагаемые стеклопакеты характеризуются повышенной защитой от шума (до 27дБ), благодаря чему уличный шум не причинит неудобств</p>
+						</div>
+						<div class="col-sm-4 item text-center">
+							<img src="images/a6.png" alt="">
+							<h3>Замер уровня<br> влажности</h3>
+							<p>При выезде технолога производим точный замер конструкции и уровня влажности помещения</p>
+						</div>
+						<div class="col-sm-4 item text-center">
+							<img src="images/a6.png" alt="">
+							<h3>Экологичный<br> профиль</h3>
+							<p>Используем только экологически чистые материалы, не имеющие запахов и рекомендуемые для окон в детских и лечебно-профилактических учреждениях</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="solution">
+		<h1>Готовые решения <span>варианты окон для Вас</span></h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="tabs">
+						<ul>
+							<li class="tab-1 active">Classic</li>
+							<li class="tab-2">Master <span class="hit"></span></li>
+							<li class="tab-3">Premium</li>
+						</ul>
+						<div>
+							<div class="tabs-content">
+								<h2>Окна CLASSIC</h2>
+								<div class="row">
+									<div class="col-sm-6 text-center">
+										<img src="images/okno.png" alt="" class="photo">
+									</div>
+									<div class="col-sm-6">
+										<table>
+											<tr>
+												<td style="width: 150px;">Профиль:</td>
+												<td>KBE Master 58 </td>
+											</tr>
+											<tr>
+												<td>Стеклопакет:</td>
+												<td>4х10х4х10х4 (32 мм) </td>
+											</tr>
+											<tr>
+												<td>Ручка:</td>
+												<td>Ручка ПВХ</td>
+											</tr>
+											<tr>
+												<td>Фурнитура:</td>
+												<td>Kale Elementis</td>
+											</tr>
+											<tr>
+												<td>Откосы:</td>
+												<td>Панели ПВХ</td>
+											</tr>
+											<tr>
+												<td>Подоконник:</td>
+												<td>DеkoWin</td>
+											</tr>
+											<tr>
+												<td>Уровень тепло-шумоизоляции:</td>
+												<td><img src="images/star1.png" alt=""></td>
+											</tr>
+										</table>
+										<a href="#popup-call-form" class="order-btn fancybox">Узнать стоимость</a>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-content">
+								<h2>Окна MASTER</h2>
+								<div class="row">
+									<div class="col-sm-6 text-center">
+										<img src="images/okno.png" alt="" class="photo">
+									</div>
+									<div class="col-sm-6">
+										<table>
+											<tr>
+												<td style="width: 150px;">Профиль:</td>
+												<td>KBE Master 70</td>
+											</tr>
+											<tr>
+												<td>Стеклопакет:</td>
+												<td>4х10х4х12х4 (36 мм)<br>4х16х4х16х4 (44 мм)</td>
+											</tr>
+											<tr>
+												<td>Ручка:</td>
+												<td>Roto line </td>
+											</tr>
+											<tr>
+												<td>Фурнитура:</td>
+												<td>Roto NT </td>
+											</tr>
+											<tr>
+												<td>Откосы:</td>
+												<td>Сэндвич-панели</td>
+											</tr>
+											<tr>
+												<td>Подоконник:</td>
+												<td>DekoWin</td>
+											</tr>
+											<tr>
+												<td>Уровень тепло-шумоизоляции:</td>
+												<td><img src="images/star2.png" alt=""></td>
+											</tr>
+										</table>
+										<a href="#popup-call-form" class="order-btn fancybox">Узнать стоимость</a>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-content">
+								<h2>Окна PREMIUM</h2>
+								<div class="row">
+									<div class="col-sm-6 text-center">
+										<img src="images/okno.png" alt="" class="photo">
+									</div>
+									<div class="col-sm-6">
+										<table>
+											<tr>
+												<td style="width: 150px;">Профиль:</td>
+												<td>KBE Expert </td>
+											</tr>
+											<tr>
+												<td>Стеклопакет:</td>
+												<td>4х14х4х14х4 (40 мм)</td>
+											</tr>
+											<tr>
+												<td>Ручка:</td>
+												<td>Roto Swing </td>
+											</tr>
+											<tr>
+												<td>Фурнитура:</td>
+												<td>Roto NT со скрытыми петлями</td>
+											</tr>
+											<tr>
+												<td>Откосы:</td>
+												<td>Штукатурные</td>
+											</tr>
+											<tr>
+												<td>Подоконник:</td>
+												<td>Danke</td>
+											</tr>
+											<tr>
+												<td>Уровень тепло-шумоизоляции:</td>
+												<td><img src="images/star3.png" alt=""></td>
+											</tr>
+										</table>
+										<a href="#popup-call-form" class="order-btn fancybox">Узнать стоимость</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="decide">
+		<div class="container">
+			<h1>Проблемы и решения <span>мы гарантируем решение всех проблем с окнами ПВХ</span></h1>
+			<div class="row">
+				<div class="col-sm-6 leftSide">
+					<p class="title">За <span>10 лет</span> работы <span class="blue">мы выявили проблемы</span>,<br> с которыми сталкиваются <span class="blue">78%</span> покупателей окон ПВХ:</p>
+					<p>1. Замеры проёма произведены неточно <span>В итоге, после установки оказывается, что рама в буквальном смысле вываливается</span></p>
+					<p>2. Продувание из под подоконников <span>Чаще всего происходит после неправильной установки окон</span></p>
+					<p>3. Запотевание, конденсат стеклопакета <span>Происходит из-за неправильного подбора стеклопакета</span></p>
+					<p>4. Затрудненное открывание-закрывание створки <span>Установка некачественной фурнитуры, попадание строительного мусора в движущиеся части окна</span></p>
+					<p>5. Оконная ручка разболталась, треснула, износилась <span>Установка некачественной фурнитуры</span></p>
+					<p>6. Через 2 года окна снова необходимо менять (пожелтели, разболтались) <span>Всё это происходит по причине экономии на профиле</span></p>
+					<p>7. Окна стоят очень дорого <span>Из-за того, что на рынке появилось очень много «перекупов» и сложно найти действительно производителя</span></p>
+					<p class="under">И это только часть проблем, с которыми сталкиваются 78% покупателей!</p>
+				</div>
+				<div class="col-sm-6 rightSide">
+					<p class="title"><span class="orange">Мы устранили эти проблемы</span><br> и теперь можем гарантировать то, что не могут другие:</p>
+					<p>1. Производство и установка строго по ГОСТУ <span>Строгое соблюдение всех стандартов на каждом этапе позволяет нам исключить брак, что существенно снижает издержки</span></p>
+					<p>2. Улучшенная конструкция окон <span>Использование новейших технологий позволило нам улучшить технические характеристики окон за ту же стоимость</span></p>
+					<p>3. Окно из профиля КВЕ не пожелтеет <span>Профиль KBE на протяжении 40 лет сохраняет свой внешний вид: остается таким же белоснежным, с матовым блеском и шелковистым на ощупь</span></p>
+					<p>4. Комплектуются только немецкой фурнитурой <span>Срок службы окна на 80% зависит от фурнитуры. Немецкая
+						фурнитура гарант того, что Ваше окно «не просядет» и не появятся щели, а значит, из окна не будет дуть</span></p>
+						<p>5. Современное производство <span>Наше производство окон отвечает самым современным технологиям производства, это позволяет снизить себестоимость продукции</span></p>
+						<p>6. Эксклюзивные партнёрские соглашения <span>Эксклюзивные соглашения с ведущими европейскими производителями фурнитуры позволяют нам существенно сократить стоимость продукции</span></p>
+					</div>
+					<div class="col-sm-12 text-center">
+						<p class="note">Оценка наших клиентов <span class="number">4.7</span> <span class="estimate">нас оценили уже <b>2150</b> человек</span></p>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="calculate">
+		<div class="container">
+			<h1>Рассчитать окно <span>со скидкой</span></h1>
+			<div class="tabs-block">
+				<div class="calculate-tabs clearfix">
+					<ul class="col-sm-2 null">
+						<li>
+							<img src="images/c1.png" alt="">
+							<span>Одностворчатое</span>
+						</li>
+						<li>
+							<img src="images/c2.png" alt="">
+							<span>Двухстворчатое</span>
+						</li>
+						<li>
+							<img src="images/c3.png" alt="">
+							<span>Трёхстворчатое</span>
+						</li>
+						<li>
+							<img src="images/c4.png" alt="">
+							<span>Балконный блок</span>
+						</li>
+						<li>
+							<img src="images/c5.png" alt="">
+							<span>Остекление балкона</span>
+						</li>
+					</ul>
+					<div class="col-sm-10">
+						<div class="tabs-content row">
+							<div class="col-sm-7 left-part text-center">
+								<h3>Одностворчатое<br> окно</h3>
+								<img src="images/okno_1-1.png" alt="" class="mainPhoto">
+							</div>
+							<div class="col-sm-5 right-part">
+								<div class="select-photo row">
+									<div class="col-xs-4">
+										<div class="item active">
+											<img src="images/okno_1-1.png" alt="" data-index="1">
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="item">
+											<img src="images/okno_1-2.png" alt="" data-index="2">
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="item">
+											<img src="images/okno_1-3.png" alt="" data-index="3">
+										</div>
+									</div>
+								</div>
+								<form id="calc-form-1" method="post" class="form calc-form">
+									<label for="height">Введите размер окна:</label>
+									<div class="row">
+										<div class="col-xs-5 null-right">
+											<input type="text" name="height" placeholder="Высота, см">
+										</div>
+										<div class="col-xs-2"><span class="multiply">x</span></div>
+										<div class="col-xs-5 null-left">
+											<input type="text" name="width" placeholder="Ширина, см">
+										</div>
+									</div>
+									<ul class="list">
+										<li class="active">Подоконник</li>
+										<li>Отливы</li>
+										<li>Откосы</li>
+										<li>Монтаж</li>
+									</ul>
+									<label for="name">Введите Ваше имя:</label>
+									<div class="input-wrap">
+										<input type="text" name="name" placeholder="Имя">
+									</div>
+									<label for="tel">Введите номер телефона:</label>
+									<div class="input-wrap">
+										<input type="text" name="tel" class="number-mask" maxlength="17" placeholder="+375 ( &#149 &#149 )   &#149 &#149 &#149    &#149 &#149    &#149 &#149">
+									</div>
+									<input type="hidden" name="type" value="Одностворчатое окно">
+									<input type="hidden" name="window" value="1">
+									<input type="hidden" name="list" value="Подоконник">
+									<button type="submit" class="order-btn">Рассчитать со скидкой</button>
+								</form>
+							</div>
+						</div>
+						<div class="tabs-content row">
+							<div class="col-sm-7 left-part text-center">
+								<h3>Двухстворчатое<br> окно</h3>
+								<img src="images/okno_2-1.png" alt="" class="mainPhoto">
+							</div>
+							<div class="col-sm-5 right-part">
+								<div class="select-photo row">
+									<div class="col-xs-3 null">
+										<div class="item active">
+											<img src="images/okno_2-1.png" alt="" data-index="1">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_2-2.png" alt="" data-index="2">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_2-3.png" alt="" data-index="3">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_2-4.png" alt="" data-index="4">
+										</div>
+									</div>
+								</div>
+								<form id="calc-form-2" method="post" class="form calc-form">
+									<label for="height">Введите размер окна:</label>
+									<div class="row">
+										<div class="col-xs-5 null-right">
+											<input type="text" name="height" placeholder="Высота, см">
+										</div>
+										<div class="col-xs-2"><span class="multiply">x</span></div>
+										<div class="col-xs-5 null-left">
+											<input type="text" name="width" placeholder="Ширина, см">
+										</div>
+									</div>
+									<ul class="list">
+										<li class="active">Подоконник</li>
+										<li>Отливы</li>
+										<li>Откосы</li>
+										<li>Монтаж</li>
+									</ul>
+									<label for="name">Введите Ваше имя:</label>
+									<div class="input-wrap">
+										<input type="text" name="name" placeholder="Имя">
+									</div>
+									<label for="tel">Введите номер телефона:</label>
+									<div class="input-wrap">
+										<input type="text" name="tel" class="number-mask" maxlength="17" placeholder="+375 ( &#149 &#149 )   &#149 &#149 &#149    &#149 &#149    &#149 &#149">
+									</div>
+									<input type="hidden" name="type" value="Двустворчатое окно">
+									<input type="hidden" name="list" value="Подоконник">
+									<input type="hidden" name="window" value="1">
+									<button type="submit" class="order-btn">Рассчитать со скидкой</button>
+								</form>
+							</div>
+						</div>
+						<div class="tabs-content row">
+							<div class="col-sm-7 left-part text-center">
+								<h3>Трёхстворчатое<br> окно</h3>
+								<img src="images/okno_3-1.png" alt="" class="mainPhoto">
+							</div>
+							<div class="col-sm-5 right-part">
+								<div class="select-photo row">
+									<div class="col-xs-3 null">
+										<div class="item active">
+											<img src="images/okno_3-1.png" alt="" data-index="1">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_3-2.png" alt="" data-index="2">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_3-3.png" alt="" data-index="3">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_3-4.png" alt="" data-index="4">
+										</div>
+									</div>
+								</div>
+								<form id="calc-form-3" method="post" class="form calc-form">
+									<label for="height">Введите размер окна:</label>
+									<div class="row">
+										<div class="col-xs-5 null-right">
+											<input type="text" name="height" placeholder="Высота, см">
+										</div>
+										<div class="col-xs-2"><span class="multiply">x</span></div>
+										<div class="col-xs-5 null-left">
+											<input type="text" name="width" placeholder="Ширина, см">
+										</div>
+									</div>
+									<ul class="list">
+										<li class="active">Подоконник</li>
+										<li>Отливы</li>
+										<li>Откосы</li>
+										<li>Монтаж</li>
+									</ul>
+									<label for="name">Введите Ваше имя:</label>
+									<div class="input-wrap">
+										<input type="text" name="name" placeholder="Имя">
+									</div>
+									<label for="tel">Введите номер телефона:</label>
+									<div class="input-wrap">
+										<input type="text" name="tel" class="number-mask" maxlength="17" placeholder="+375 ( &#149 &#149 )   &#149 &#149 &#149    &#149 &#149    &#149 &#149">
+									</div>
+									<input type="hidden" name="type" value="Трёхстворчатое окно">
+									<input type="hidden" name="list" value="Подоконник">
+									<input type="hidden" name="window" value="1">
+									<button type="submit" class="order-btn">Рассчитать со скидкой</button>
+								</form>
+							</div>
+						</div>
+						<div class="tabs-content row">
+							<div class="col-sm-6 left-part text-center">
+								<h3>Балконный<br> блок</h3>
+								<img src="images/okno_4-1.png" alt="" class="mainPhoto">
+							</div>
+							<div class="col-sm-6 right-part">
+								<div class="select-photo row">
+									<div class="col-xs-2 null">
+										<div class="item active">
+											<img src="images/okno_4-1.png" alt="" data-index="1">
+										</div>
+									</div>
+									<div class="col-xs-2 null">
+										<div class="item">
+											<img src="images/okno_4-2.png" alt="" data-index="2">
+										</div>
+									</div>
+									<div class="col-xs-2 null">
+										<div class="item">
+											<img src="images/okno_4-3.png" alt="" data-index="3">
+										</div>
+									</div>
+									<div class="col-xs-2 null">
+										<div class="item">
+											<img src="images/okno_4-4.png" alt="" data-index="4">
+										</div>
+									</div>
+									<div class="col-xs-2 null">
+										<div class="item">
+											<img src="images/okno_4-5.png" alt="" data-index="5">
+										</div>
+									</div>
+								</div>
+								<form id="calc-form-4" method="post" class="form calc-form">
+									<label for="height">Введите размер окна:</label>
+									<div class="row">
+										<div class="col-xs-5 null-right">
+											<input type="text" name="height" placeholder="Высота, см">
+										</div>
+										<div class="col-xs-2"><span class="multiply">x</span></div>
+										<div class="col-xs-5 null-left">
+											<input type="text" name="width" placeholder="Ширина, см">
+										</div>
+									</div>
+									<ul class="list">
+										<li class="active">Подоконник</li>
+										<li>Отливы</li>
+										<li>Откосы</li>
+										<li>Монтаж</li>
+									</ul>
+									<label for="name">Введите Ваше имя:</label>
+									<div class="input-wrap">
+										<input type="text" name="name" placeholder="Имя">
+									</div>
+									<label for="tel">Введите номер телефона:</label>
+									<div class="input-wrap">
+										<input type="text" name="tel" class="number-mask" maxlength="17" placeholder="+375 ( &#149 &#149 )   &#149 &#149 &#149    &#149 &#149    &#149 &#149">
+									</div>
+									<input type="hidden" name="type" value="Балконный блок">
+									<input type="hidden" name="list" value="Подоконник">
+									<input type="hidden" name="window" value="1">
+									<button type="submit" class="order-btn">Рассчитать со скидкой</button>
+								</form>
+							</div>
+						</div>
+						<div class="tabs-content row">
+							<div class="col-sm-6 left-part text-center">
+								<h3>Остекленение<br> балкона</h3>
+								<img src="images/okno_5-1.png" alt="" class="mainPhoto">
+							</div>
+							<div class="col-sm-6 right-part">
+								<div class="select-photo row">
+									<div class="col-xs-3 null">
+										<div class="item active">
+											<img src="images/okno_5-1.png" alt="" data-index="1">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_5-2.png" alt="" data-index="2">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_5-3.png" alt="" data-index="3">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_5-4.png" alt="" data-index="4">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_5-5.png" alt="" data-index="5">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_5-6.png" alt="" data-index="6">
+										</div>
+									</div>
+									<div class="col-xs-3 null">
+										<div class="item">
+											<img src="images/okno_5-7.png" alt="" data-index="7">
+										</div>
+									</div>
+								</div>
+								<form id="calc-form-5" method="post" class="form calc-form">
+									<label for="height">Введите размер окна:</label>
+									<div class="row">
+										<div class="col-xs-5 null-right">
+											<input type="text" name="height" placeholder="Высота, см">
+										</div>
+										<div class="col-xs-2"><span class="multiply">x</span></div>
+										<div class="col-xs-5 null-left">
+											<input type="text" name="width" placeholder="Ширина, см">
+										</div>
+									</div>
+									<ul class="list">
+										<li class="active">Подоконник</li>
+										<li>Отливы</li>
+										<li>Откосы</li>
+										<li>Монтаж</li>
+									</ul>
+									<div class="row">
+										<div class="col-sm-6">
+											<label for="name">Введите имя:</label>
+											<div class="input-wrap">
+												<input type="text" name="name" placeholder="Имя">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<label for="tel">Введите телефон:</label>
+											<div class="input-wrap">
+												<input type="text" name="tel" class="number-mask" maxlength="17" placeholder="+375 ( &#149 &#149 )   &#149 &#149 &#149    &#149 &#149    &#149 &#149">
+											</div>
+										</div>
+									</div>
+									<input type="hidden" name="type" value="Остекленение балкона">
+									<input type="hidden" name="list" value="Подоконник">
+									<input type="hidden" name="window" value="1">
+									<button type="submit" class="order-btn">Рассчитать со скидкой</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="glass">
+		<div class="container">
+			<h1>Остекление балконов, лоджий <span>варианты остекления в зависимости от ваших нужд</span></h1>
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<div class="buttons">
+						<button class="cold">Холодное</button>
+						<button class="warm active">Теплое</button>
+					</div>
+					<h3 class="window-title">Металлопластиковый профиль</h3>
+					<img src="images/w-warm.png" alt="" class="window">
+				</div>
+			</div>
+			<div class="text-center">
+				<a href="#warm-popup" class="more fancybox"></a>
+			</div>
+			<div class="text-center">
+				<a href="#popup-call-form" class="order-btn fancybox">Узнать стоимость</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="key">
+		<div class="container">
+			<h1>Отделка балконов «под ключ» <span></span></h1>
+			<div class="row">
+				<div class="col-xs-6">
+					<ul>
+						<li>1. Навесная крыша <span>Для открытых балконов оборудуется навесная крыша. Крыша легкая и прочная, выдерживает большую массу снега, защищает от протечек во время дождя</span></li>
+						<li>2. Внутрення отделка <span>Отделка производится деревянной вагонкой, а также пластиковыми бесшовными панелями любого цвета и текстуры на ваш выбор.</span></li>
+						<li>3. Выбор типа остекления <span>Пластиковый профиль (теплое).  Алюминиевое (холодное)</span></li>
+						<li>4. Подоконики <span>Прочные и долговечные подоконники любой ширины и цвета. Стойки к воздействию солнечных лучей, не боятся мелких царапин  и легко моются</span></li>
+						<li>5. Встроенная мебель <span>На балконе устраиваются компактные шкафчики, прочные полки, сушилки для белья – все, что нужно для полноценного использования пространства и удобного хранения вещей</span></li>
+						<li>6. внешняя обшивка <span>Для украшения и дополнительной защиты внешняя сторона балкона обшивается сайдингом</span></li>
+						<li>7. Кладка <span>При необходимости теплого остекления  на первом этапе балкон укрепляется кладкой из пеноблоков</span></li>
+						<li>8. Настил пола <span>Пол выравнивается. Покрытие - ламинат, напольная плитка, линолеум и другие материалы.</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="discount">
+		<div class="container">
+			<h1>Рассрочка <span>плати по частям без увеличения стоимости</span></h1>
+			<div class="row">
+				<div class="col-md-7 woman">
+					<img src="images/woman.png" alt="">
+				</div>
+				<div class="col-md-5">
+					<div class="info">
+						<p class="title">Честная <span><b>0</b>%</span><br> рассрочка</p>
+						<p class="title-2">Без переплат, поручителей<br> и справок о доходах</p>
+						<div class="row text-center">
+							<div class="col-xs-6">
+								<div class="item">
+									<img src="images/d1.png" alt="">
+									<p>фирменная рассрочка<br> от производителя</p>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="item">
+									<img src="images/d2.png" alt="">
+									<p>отсутствие скрытых<br> процентов и переплат</p>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="item">
+									<img src="images/d3.png" alt="">
+									<p>от 3 до 12 месяцев<br> равными частями</p>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="item">
+									<img src="images/d4.png" alt="">
+									<p>Досрочное погашение,<br> Без поручителей<br> Без справок о доходах</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-center">
+							<a href="#popup-call-form" class="order-btn fancybox">Получить рассрочку</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="skidki">
+		<div class="container">
+			<h1>Наши акции <span>выбирайте подарок сами!</span></h1>
+			<div class="row">
+				<div class="col-md-7">
+					<div class="info">
+						<div class="item item-1">
+							<div class="row">
+								<div class="col-xs-2 number"><span>1.</span></div>
+								<div class="col-xs-10">
+									<p>При заказе окон <strong>KBE</strong> во всю квартиру <strong>вы получаете сразу</strong> <span>3 подарка:</span></p>
+									<ul>
+										<li>Годовой набор по уходу за окнами</li>
+										<li>Москитная сетка</li>
+										<li>Оконный градусник</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="item item-2">
+							<div class="row">
+								<div class="col-xs-2 number"><span>2.</span></div>
+								<div class="col-xs-10">
+									<p>Энергосберегающий стеклопакет <strong>по цене обычного окна</strong></p>
+									<ul>
+										<li>Повышение теплоизоляции</li>
+										<li>Отражает жару летом</li>
+										<li>Максимальная шумоизоляция</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="item item-3">
+							<div class="row">
+								<div class="col-xs-2 number"><span>3.</span></div>
+								<div class="col-xs-10">
+									<p>Дизайнерская оконная ручка <strong>Roto Swing</strong></p>
+									<ul>
+										<li>серебро</li>
+										<li>золото</li>
+										<li>бронза</li>
+										<li>белая</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="text-center">
+							<a href="#popup-call-form" class="order-btn fancybox">Хочу подарок</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="find-us">
+		<div class="container">
+			<h1>Как нас найти <span>наши адреса и координаты</span></h1>			
+		</div>
+		<div class="map">
+			<div class="container">
+				<div class="col-md-offset-7 col-md-5">
+					<div class="call">
+						<p class="title-1">Остались вопросы?</p>
+						<p class="title-2">Звоните нам!</p>
+						<div class="phone">
+							<p>+375 (29) <span>182-04-07</span></p> 
+                                                        <p>+375 (33) <span>352-04-07</span></p> 
+					                <p>+375 (17) <span>388-06-80</span></p>
+						</div>
+						<p class="title-1">или задайте вопрос</p>
+						<p class="title-2 orange">через форму</p>
+						<form class="form" id="call-form" method="post">
+							<label for="tel">введите Ваш номер телефона</label>
+							<div class="input-wrap">
+								<input type="text" name="tel" class="number-mask" maxlength="17" placeholder="+375 ( &#149 &#149 )   &#149 &#149 &#149    &#149 &#149    &#149 &#149">
+							</div>
+							<label for="tel">введите Ваше сообщение</label>
+							<div class="input-wrap">
+								<textarea name="mess"></textarea>
+							</div>
+							<input type="hidden" name="type" value="Задать вопрос">
+							<div class="text-center">
+								<button type="submit" class="order-btn">Задать вопрос</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="yandex-map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=0NR8GTkS-m2WI7CtYUdNkPPWGMNUsLdF&amp;width=100%&amp;height=585&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+			</div>
+		</div>
+	</section>
+
+	<section class="bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2 logo">
+					<img src="images/logo.png" alt="">
+				</div>
+				<div class="col-sm-4">
+					<p class="adres">ООО «Окна-Рамы»<br> 220089, г. Борисов,<br>Республика Беларусь <br></p>
+				</div>
+				<div class="col-sm-3">
+					<p class="adres">Контактные телефоны:<br> Velcom +375 (29) <span>182-04-07</span><br> Городской телефон:<br> +375 (17) <span>388-06-80</span></p>
+				</div>
+				<div class="col-sm-3">
+					<p class="adres">Электронная почта:<br> info@okna-ramy.by</p>
+					<a id="top">Наверх</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; ООО «Окна Рамы» 2016</p>
+		</div>
+	</footer>
+
+	<!-- Модальные окна -->
+	<div id="success">
+		<h3><span>Спасибо!</span><br> ваша заявка принята</h3>
+		<p>в ближайшее время наш менеджер свяжется с Вами, чтобы обсудить детали</p>
+	</div>
+
+	<form id="popup-call-form" method="post" class="form">
+		<h3>Оставьте свои данные</h3>
+		<p class="under">и наш менеджер перезвонит вам в ближайшее время!</p>
+		<label for="name">Представьтесь пожалуйста *</label>
+		<div class="input-wrap">
+			<input type="text" name="name">
+		</div>
+		<label for="tel">Введите Ваш номер телефона *</label>
+		<div class="input-wrap">
+			<input type="text" name="tel" class="number-mask" maxlength="17" placeholder="+375 ( &#149 &#149 )   &#149 &#149 &#149    &#149 &#149    &#149 &#149">
+		</div>
+		<input type="hidden" name="type" value="Заказать звонок">
+		<div class="text-center">
+			<button class="order-btn" type="submit">Заказать звонок</button>
+		</div>
+		<p class="note">* Ваши данные будут в безопасности и не будут переданы третьим лицам</p>
+	</form>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter -->
+
+<script type="text/javascript">
+
+    (function (d, w, c) {
+
+        (w[c] = w[c] || []).push(function() {
+
+            try {
+
+                w.yaCounter42934249 = new Ya.Metrika({
+
+                    id:42934249,
+
+                    clickmap:true,
+
+                    trackLinks:true,
+
+                    accurateTrackBounce:true,
+
+                    webvisor:true
+
+                });
+
+            } catch(e) { }
+
+        });
+
+ 
+
+        var n = d.getElementsByTagName("script")[0],
+
+            s = d.createElement("script"),
+
+            f = function () { n.parentNode.insertBefore(s, n); };
+
+        s.type = "text/javascript";
+
+        s.async = true;
+
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+ 
+
+        if (w.opera == "[object Opera]") {
+
+            d.addEventListener("DOMContentLoaded", f, false);
+
+        } else { f(); }
+
+    })(document, window, "yandex_metrika_callbacks");
+
+</script>
+
+<noscript><div><img src="https://mc.yandex.ru/watch/42934249" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+
+<script src="https://zenconnector.ru/js/connector.js" data-zentoken="Ym9yaXNvdi5va25hLXJhbXkuYnk6Ng=="></script>
+
+</body>
+</html>

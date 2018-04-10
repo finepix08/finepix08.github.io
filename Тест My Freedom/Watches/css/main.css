@@ -1,0 +1,212 @@
+
+body { font-family: "OpenSans", sans-serif;
+ font-size: 16px; 
+ text-align: center;
+ background-color: #f4f6f8;
+ }
+
+.containar {
+	width: 1280px;
+	background: url("../images/Overlay.gif") no-repeat;
+	background-size: contain;
+	margin: 0;
+	padding: 0;
+
+}
+
+.bg-header {
+	background-color: #fff;
+	width: 100%;
+	height: 80px;
+	opacity: 0.8;
+}
+
+.containar2 {
+	margin: 0 auto;
+	width: 1147px;
+}
+
+/*----------------------- Header ----------------------*/
+
+header  ul {
+	float: left;
+}
+
+header ul li {
+	display: inline-block;
+	line-height: 80px;
+	padding-right: 52px;
+}
+
+header ul li a:hover {
+	color: red;
+}
+
+header ul li a {
+	display: block;
+	color: #797979;
+}
+
+header a h3 {
+	padding: 12px 35px;
+	border: 3px solid #fa5871;
+	color: #ff3251;
+	border-radius: 40px;
+	float: right;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+/*----------------------- Aside ----------------------*/
+
+aside h1 {
+	text-align: center;
+	font-size: 48px;
+	white-space: pre-line;
+	color: #fff;
+	margin-top: 20px;
+}
+
+aside .box {
+	border: 15px solid transparent;
+	border-top-color: #fff;
+	margin: 0 auto;
+	width: 15px;
+	margin-top: 50px;
+}
+
+/*----------------------- Article ----------------------*/
+
+article h2 {
+	color: #ff3251;
+	font-size: 20px;
+	margin: 70px 0 30px;
+}
+
+article p {
+	color: #626261;
+	font-size: 17px;
+	white-space: pre-line;
+	margin-bottom: 150px;
+}
+
+article .container figure h3 {
+	font-size: 15px;
+	color: #ff3251;
+	padding: 20px 0;
+}
+
+article .container figure p {
+	color: #7d7d7d;
+	font-size: 13px;
+}
+
+article .container figure h3 span{
+	font-size: 25px;
+	color: #00c7c0;
+	margin-top: -10px;
+	display: inline-block;
+}
+
+article .container figure p span {
+	margin-top: -3px;
+	display: inline-block;
+}
+
+
+
+
+/*----------------------- Section ----------------------*/
+
+section .sectionName h1 {
+	font-size: 23px;
+	color: #ff3251;
+}
+
+section .sectionName p {
+	line-height: 30px;
+	padding: 35px 0;
+	font-size: 16px;
+	color: #a6a7a8;
+	white-space: pre-line;
+}
+
+section .button {
+	width: 167px;
+	display: inline-block;
+	margin: 0 15px 70px;
+}
+
+section .button a p {
+	padding: 15px 0;
+	border: 2px #ff3251 solid;
+	border-radius: 50px;
+	color: #ff3251;
+}
+
+section .button a p:active {
+	background: #ff3251;
+	color: #fff;
+}
+
+section .container {
+	margin: 0 0 50px;
+}
+
+section .container figure {
+	margin-bottom: 50px;
+	width: 264px;
+	padding-bottom: 140px;
+	background-color: #fff;
+}
+
+section .container figure h3 {
+	padding-top: 15px;
+	font-size: 10px;
+	color: #000;
+	width: 100%;
+}
+
+section .container figure h3 span {
+	color: #ff3251;
+}
+
+section .container figure img {
+	width: 100%;
+}
+
+
+/*----------------------- Footer ----------------------*/
+
+footer .containar3 {
+	width: 100%;
+	background: url("../images/Слой 122.gif") no-repeat;
+	height: 375px;
+	background-size: contain;
+}
+
+footer .containar3 .data {
+	margin-left: 100px;
+	padding: 82px 0 0 9px;
+	float: left;
+	text-align: left;
+}
+
+footer .containar3 .data h1 {
+	font-size: 25px;
+	color: #ff3251;
+	margin-bottom: 30px;
+}
+
+footer .containar3 .data h2 {
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+footer .containar3 .data p {
+	font-size: 14px;
+	color: #bdbdbd;
+	margin-bottom: 26px;
+}
