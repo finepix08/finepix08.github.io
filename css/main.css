@@ -72,68 +72,16 @@ a{
 	padding: 10px 15px;
 }
 /* -----------------my--------------------------- */
-.container2 {
-	width: 50%; 
-	margin: 0 auto; 
-	text-align: center;
-}
-.battery {
-	width: 300px;
-	height: 100px;
-	position: relative;
-	border: 5px solid #333;
-	margin: 25px;
-	border-radius: 5px;
+
+.item {
+	height: 500px;
 }
 
-.battery:after {
-	content: "";
-	display: block;
-	width: 10px;
-	height: 50px;
-	background: #333;
-	position: absolute;
-	right: -15px;
-	top: 50%;
-	margin-top: -25px;
-	border-radius: 0 5px 5px 0;
-}
+.item img {
+	margin-left: 180px;
+} 
 
-.battery .number {
-	font-size: 45px;
-	line-height: 90px;
-	text-align: center;
-
-}
-
-.battery .inner {
-	width: 0%;
-	background: #f00;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	
-}
-
-.warning {
-	margin: -15px 25px 15px;
-	font-size: 24px;
-	color: #d84040;
-	width: 300px;
+h1 {
 	text-align: center;
 }
 
-#count {
-	display: block;
-	width: 300px;
-	height: 30px;
-	margin: 0 25px;
-	font-size: 18px;
-	color: #333;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	padding: 0 5px 0 10px;
-	outline: none;
-}
