@@ -73,17 +73,23 @@ a{
 }
 /* -----------------my--------------------------- */
 
-body {
-	
+img[alt*="borisov"] { 
+	margin-left: 300px;
+}
+
+img[alt*="transportation"] { 
+	margin-left: 310px;
+}
+
+img[alt*="freedom"] { 
+	margin-left: 280px;
 }
 
 .item {
 	height: 500px;
 }
 
-.item img {
-	margin-left: 180px;
-} 
+
 
 h1 {
 	text-align: center;
