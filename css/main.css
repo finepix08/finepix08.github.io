@@ -74,6 +74,9 @@ a{
 /* -----------------my--------------------------- */
 
 
+.block {
+	margin-bottom: 100px;
+}
 
 img[alt*="borisov"] { 
 	margin-left: 300px;
@@ -91,9 +94,21 @@ img[alt*="freedom"] {
 	height: 500px;
 }
 
+.center-img {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+  }
 
 
-h1 {
+.carousel-indicators li {
+	border: 1px solid  silver !important;
+	border-radius: 0px !important;
+	background-color: #efefef !important;
+  }
+
+
+h1, h2 {
 	text-align: center;
 }
 

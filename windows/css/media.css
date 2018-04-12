@@ -1,0 +1,86 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.payment .title{font-size: 52px;}
+	.payment .title span{font-size: 28px;}
+	.gallery button{top: 260px;}
+	.stock{margin-top: -50px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .logo{padding: 10px 15px; height: 85px;}
+	header .address{height: 85px;}
+	header .address p{padding: 12px 0;}
+	header .phone{padding: 10px 15px;}
+	header .phone p{text-align: left;}
+	header .order-btn{margin: 10px 0;}
+	.catalog{padding: 30px 0;}
+	.payment .title{font-size: 24px;}
+	.payment .title span{font-size: 16px;}
+	.calculate-tabs .right-part{border-radius: 0  0 23px 23px;}
+	.calc-form .text-right{text-align: center;}
+	.order-window .item .arrow{display: none;}
+	.discount .title span{font-size: 40px;}
+	.reports{-webkit-background-size: cover; background-size: cover;}
+	.reports .report-item .wrapper{min-height: auto;}
+	.reports .owl-controls{padding-bottom: 20px;}
+	.stock{margin-top: 0; background: url(../images/present_pattern.jpg);}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header{padding-bottom: 15px;}
+	header .logo, header .address{height: auto;}
+	header .logo, header .phone p{text-align: center;}
+	.top, .payment, .discount, #bottom-form{display: none;}
+	.advantages, .catalog{padding-bottom: 0;}
+	.advantages .section-title{margin-bottom: 0;}
+	.advantages .item, .order-window .item, .gift .item, .stock .item, .ekonom .item{margin-bottom: 15px;}
+	.order-window{background: #ecf0f9;}
+	.section-title{font-size: 32px;}
+	.gift .section-title, .gallery .section-title, .reports .section-title, .ekonom .section-title, .map .section-title{padding: 20px 0;}
+	.gallery{padding-bottom: 0;}
+	.gallery button{top: 190px;}
+	.section-title span{font-size: 24px;}
+	.bottom, footer, footer .text-right{text-align: center;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.calculate, .stock{display: none;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
