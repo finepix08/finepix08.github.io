@@ -78,44 +78,19 @@ a{
 	margin-bottom: 100px;
 }
 
-img[alt*="borisov"] { 
-	margin-left: 300px;
-}
-
-img[alt*="transportation"] { 
-	margin-left: 310px;
-}
-
-img[alt*="freedom"] { 
-	margin-left: 280px;
-}
-
-img[alt*="windows"] { 
-	margin-left: 280px;
-}
-
-img[alt*="react2"] { 
-	margin-left: 270px;
-}
-
-img[alt*="thunk"] { 
-	margin-left: 380px;
-}
-
-img[alt*="redux"] { 
-	height: 300px;
-	margin-left: 340px;
-}
-
 .item {
 	height: 500px;
 }
 
 .center-img {
-	width: 300px;
+	width: 600px;
 	display: block;
 	margin: 0 auto;
   }
+
+img[src*="thunk"] {
+	width: 500px !important;
+}
 
 
 .carousel-indicators li {
