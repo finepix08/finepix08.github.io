@@ -90,6 +90,23 @@ img[alt*="freedom"] {
 	margin-left: 280px;
 }
 
+img[alt*="windows"] { 
+	margin-left: 280px;
+}
+
+img[alt*="react2"] { 
+	margin-left: 270px;
+}
+
+img[alt*="thunk"] { 
+	margin-left: 380px;
+}
+
+img[alt*="redux"] { 
+	height: 300px;
+	margin-left: 340px;
+}
+
 .item {
 	height: 500px;
 }
